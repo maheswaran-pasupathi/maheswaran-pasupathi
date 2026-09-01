@@ -37,7 +37,7 @@ To help transportation move **people and the things humanity depends on** more s
 
 **Industrial simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys . Modelica
 
-**Scientific computing:** Python · Wolfram · Matplotlib · Openfoam
+**Scientific computing:** Python · Wolfram · Matlab · Openfoam
 
 **Applied engineering ML:** Scikit-learn · Pytorch · RAG · Surrogate Modelling . PINNS
 
