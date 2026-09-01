@@ -17,7 +17,7 @@ To help transportation move **people and the things humanity depends on** more s
 ## 🔧 What keeps me curious
 
 - **Battery & E-Powertrain** — thermal management, thermal runaway ,  electro-thermal hotspots and component level system simulation
-- **Combustion & Aftertreatment** — SI/CI combustion, charger motion, spray behaviour, EATS
+- **Combustion & Aftertreatment** — SI/CI combustion, RCCI , charge motion, spray behaviour, EATS
 - **Thermal & Flow** — coolant flow, conjugate heat transfer, temperature fields, DOE , Optimisation and test correlation
 - **Component-to-System Simulation** — connecting detailed CFD with cooling circuits, controls and vehicle-level behaviour
 - **Engineering AI** — reduced-order models, surrogates, explainability and optimization without losing the physics
