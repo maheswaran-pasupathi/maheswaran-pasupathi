@@ -16,9 +16,9 @@ To help transportation move **people and the things humanity depends on** more s
 
 ## 🔧 What keeps me curious
 
-- **Engine Thermal & CHT** — coolant flow, conjugate heat transfer, temperature fields and test correlation
-- **Combustion & Aftertreatment** — SI/CI combustion, spray behaviour, EATS and SCR mixing
-- **Battery & E-Powertrain** — thermal management, thermal runaway and electro-thermal hotspots
+- **Battery & E-Powertrain** — thermal management, thermal runaway ,  electro-thermal hotspots and component level system simulation
+- **Combustion & Aftertreatment** — SI/CI combustion, charger motion, spray behaviour, EATS
+- **Thermal & Flow** — coolant flow, conjugate heat transfer, temperature fields, DOE , Optimisation and test correlation
 - **Component-to-System Simulation** — connecting detailed CFD with cooling circuits, controls and vehicle-level behaviour
 - **Engineering AI** — reduced-order models, surrogates, explainability and optimization without losing the physics
 
@@ -35,11 +35,11 @@ To help transportation move **people and the things humanity depends on** more s
 
 ## ⚙️ How I currently build
 
-**Industrial simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys
+**Industrial simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys . Modelica
 
-**Scientific computing:** Python · NumPy · Pandas · Matplotlib · HDF5
+**Scientific computing:** Python · Wolfram · Matplotlib · Openfoam
 
-**Applied engineering ML:** Scikit-learn · Random Forest · XGBoost · SHAP · POD/PCA · Surrogate Modelling
+**Applied engineering ML:** Scikit-learn · Pytorch · RAG · Surrogate Modelling . PINNS
 
 **Reproducible delivery:** Git · GitHub · Kaggle · Codespaces · Streamlit
 
