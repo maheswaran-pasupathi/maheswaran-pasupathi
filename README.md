@@ -1,39 +1,31 @@
 # Maheswaran Pasupathi
 
-### CFD & Thermal Simulation Specialist
+### 🌡️ CFD & Thermal Simulation Specialist
 
-**Thermal & Fluid Sciences · Combustion · Battery & E-Powertrain · Engineering Automation · Physics-First AI/ML**
+**9 years in thermal-fluid engineering, combustion, battery systems and simulation automation.**
 
-I am a hands-on simulation specialist with **9 years of experience** across automotive and commercial-vehicle engineering.
+I work on physics-based simulation of complex thermal and flow systems—turning CFD results and test data into practical engineering decisions.
 
-My work centres on understanding how heat and fluids behave in complex systems—from in-cylinder combustion and conjugate heat transfer to battery thermal safety, electro-thermal analysis, and vehicle thermal management.
+## 🔧 Core Expertise
 
-## What I work on
+- **Thermal & Flow** — CHT, cooling performance, internal flows and test correlation
+- **Battery & E-Powertrain** — thermal management, thermal runaway and electro-thermal analysis
+- **Combustion** — SI/CI combustion, spray, charge motion, EATS and SCR mixing
+- **Automation** — Python and STAR-CCM+ Java simulation workflows
+- **Engineering AI** — surrogate models, POD/PCA, explainable ML and optimization
 
-- **Thermal & flow:** CHT, internal flows, cooling performance, hotspots and test correlation
-- **Battery & e-powertrain:** battery cooling, thermal runaway, 1D/3D modelling and busbar electro-thermal analysis
-- **Combustion:** SI/CI combustion, spray behaviour, charge motion, EATS and SCR mixing
-- **Automation:** Python and STAR-CCM+ Java workflows for repeatable simulation and post-processing
-- **Engineering AI:** surrogate models, POD/PCA, explainable ML and physics-aware optimization
+## 🧪 Featured Portfolio
 
-I also contribute through technical ownership, methodology development, mentoring, and collaboration across engineering teams—while remaining close to the simulations and underlying physics.
+### [AI for Thermal & Fluid Engineering →](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
-## Featured work
+PIV flow reconstruction · Combustion ML · Thermal surrogate optimization
 
-### [AI for Thermal & Fluid Engineering](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
+> **Physics first. Validation before claims.**
 
-A public portfolio exploring how Scientific Machine Learning can complement CFD:
+## 🛠️ Tools
 
-- In-cylinder PIV flow reconstruction using POD/PCA
-- Explainable ML for diesel spray and combustion
-- Thermal surrogate modelling and cooling optimization
+STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys · Python · Scikit-learn
 
-> **Physics first. Validation before claims. AI as an engineering tool—not a replacement for engineering judgment.**
-
-## Tools
-
-STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys · Python · Java Macros · Pandas · NumPy · Scikit-learn · XGBoost · SHAP
-
-## Connect
+## 🤝 Connect
 
 [LinkedIn](https://www.linkedin.com/in/srimahes) · [Engineering-AI Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
