@@ -2,7 +2,13 @@
 
 ### 🌡️ CFD & Thermal Simulation Specialist
 
-I spend most of my time figuring out **where the heat is going, why the flow is misbehaving, and whether the simulation agrees with reality**.
+Long before engineering existed, humans watched fire spread, water find its path, smoke rise and heat move from one object to another. Our instinctive understanding of flow and heat began with nature itself.
+
+Today, I sit in front of a simulation and try to persuade a computer to reproduce those same behaviours. We describe heat using Fourier's 200-year-old mathematics and fluid motion using the Navier-Stokes equations—born in the nineteenth century, implemented through decades of numerical methods and executed on modern hardware.
+
+Now AI has joined the conversation: friend, enemy or an extremely confident assistant? Perhaps all three.
+
+It can help us code faster and explore more possibilities, but it cannot negotiate with nature. The equations must converge, the results must agree with physics, and engineering judgment still gets the final vote.
 
 With **9 years in thermal-fluid engineering**, I have worked across combustion, battery systems, conjugate heat transfer, electro-thermal analysis and simulation automation.
 
