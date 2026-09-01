@@ -10,7 +10,9 @@ Now AI has joined the conversation: friend, enemy or an extremely confident assi
 
 It can help us code faster and explore more possibilities, but it cannot negotiate with nature. The equations must converge, the results must agree with physics, and engineering judgment still gets the final vote.
 
-With **9 years in thermal-fluid engineering**, I have worked across combustion, battery systems, conjugate heat transfer, electro-thermal analysis and simulation automation.
+## 🧭 My Current Ikigai
+
+To help transportation move **people and the things humanity depends on** more safely, efficiently and sustainably—using thermal-fluid engineering, combustion, electrification, simulation automation and physics-aware AI.
 
 ## 🔧 What keeps me curious
 
@@ -28,12 +30,18 @@ PIV flow reconstruction · Combustion ML · Thermal surrogate optimization
 
 > **Physics first. Validation before claims. Fancy models still need to obey thermodynamics.**
 
-## 🛠️ Tools I often reach for
+## 🧰 My Numerical Toolbox
 
-STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys · Python · Scikit-learn
+**Simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Modelica · Ansys
+
+**Automation & Data:** Python · STAR-CCM+ Java Macros · Pandas · NumPy · Matplotlib
+
+**Engineering AI:** Scikit-learn · XGBoost · SHAP · Streamlit · LangChain · RAG workflows
 
 ## 🤝 Say hello
 
 Always happy to exchange ideas about CFD, thermal engineering, combustion, automation or Scientific ML.
 
 [LinkedIn](https://www.linkedin.com/in/srimahes) · [Engineering-AI Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
+
+<sub>My curiosity is currently unlimited. My GPU budget has a much stricter boundary condition.</sub>
