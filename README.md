@@ -16,31 +16,46 @@ To help transportation move **people and the things humanity depends on** more s
 
 ## 🔧 What keeps me curious
 
-- **Thermal & Flow** — CHT, cooling performance, internal flows and test correlation
+- **Engine Thermal & CHT** — coolant flow, conjugate heat transfer, temperature fields and test correlation
+- **Combustion & Aftertreatment** — SI/CI combustion, spray behaviour, EATS and SCR mixing
 - **Battery & E-Powertrain** — thermal management, thermal runaway and electro-thermal hotspots
-- **Combustion** — SI/CI combustion, spray, charge motion, EATS and SCR mixing
-- **Automation** — because repeating the same simulation task manually is a problem worth solving
-- **Engineering AI** — surrogate models, POD/PCA and explainable ML, with the physics kept firmly in the loop
+- **Automation** — turning repetitive simulation and post-processing tasks into reliable workflows
+- **Engineering AI** — reduced-order models, surrogates, explainability and optimization without losing the physics
 
 ## 🧪 Current playground
 
 ### [AI for Thermal & Fluid Engineering →](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
-PIV flow reconstruction · Combustion ML · Thermal surrogate optimization
+- PIV flow reconstruction with POD/PCA
+- Combustion modelling with Random Forest, XGBoost and SHAP
+- Thermal surrogate modelling, bounded optimization and Streamlit visualization
 
 > **Physics first. Validation before claims. Fancy models still need to obey thermodynamics.**
 
 ## 🧰 My Numerical Toolbox
 
-**Simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Modelica · Ansys
+**CFD & CAE:** STAR-CCM+ · CONVERGE · ANSA · Ansys Fluent · Ansys SpaceClaim
 
-**Automation & Data:** Python · STAR-CCM+ Java Macros · Pandas · NumPy · Matplotlib
+**System Modelling:** GT-SUITE · Modelica · MATLAB
+
+**Automation & Scientific Computing:** Python · STAR-CCM+ Java Macros · Pandas · NumPy · Matplotlib · HDF5 · Git
 
 **Engineering AI:** Scikit-learn · XGBoost · SHAP · Streamlit · LangChain · RAG workflows
 
+## 🚀 Next Technical Frontier
+
+Building deeper capability around the skills appearing in physics-based engineering-AI work:
+
+- PyTorch and deep-learning workflows
+- Physics-informed and hybrid first-principles/ML models
+- Neural surrogates and operator learning
+- Uncertainty quantification and probabilistic ML
+- Bayesian optimization
+- Robust model validation, extrapolation checks and deployment
+
 ## 🤝 Say hello
 
-Always happy to exchange ideas about CFD, thermal engineering, combustion, automation or Scientific ML.
+Always happy to exchange ideas about CFD, engine thermal management, combustion, battery thermal safety, automation or Scientific ML.
 
 [LinkedIn](https://www.linkedin.com/in/srimahes) · [Engineering-AI Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
