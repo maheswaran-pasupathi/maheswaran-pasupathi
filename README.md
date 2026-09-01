@@ -19,43 +19,44 @@ To help transportation move **people and the things humanity depends on** more s
 - **Engine Thermal & CHT** — coolant flow, conjugate heat transfer, temperature fields and test correlation
 - **Combustion & Aftertreatment** — SI/CI combustion, spray behaviour, EATS and SCR mixing
 - **Battery & E-Powertrain** — thermal management, thermal runaway and electro-thermal hotspots
-- **Automation** — turning repetitive simulation and post-processing tasks into reliable workflows
+- **Component-to-System Simulation** — connecting detailed CFD with cooling circuits, controls and vehicle-level behaviour
 - **Engineering AI** — reduced-order models, surrogates, explainability and optimization without losing the physics
 
-## 🧪 Current playground
+## 🧪 What I am building in public
 
 ### [AI for Thermal & Fluid Engineering →](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
-- PIV flow reconstruction with POD/PCA
-- Combustion modelling with Random Forest, XGBoost and SHAP
-- Thermal surrogate modelling, bounded optimization and Streamlit visualization
+- In-cylinder PIV flow reconstruction with POD/PCA
+- Explainable combustion ML with Random Forest, XGBoost and SHAP
+- Thermal surrogate modelling, constrained optimization and an engineering dashboard
+- Vehicle-aerodynamics ML using real DrivAerNet++ design and CFD data
 
 > **Physics first. Validation before claims. Fancy models still need to obey thermodynamics.**
 
-## 🧰 My Numerical Toolbox
+## ⚙️ How I currently build
 
-**CFD & CAE:** STAR-CCM+ · CONVERGE · ANSA · Ansys Fluent · Ansys SpaceClaim
+**Industrial simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys
 
-**System Modelling:** GT-SUITE · Modelica · MATLAB
+**Scientific computing:** Python · NumPy · Pandas · Matplotlib · HDF5
 
-**Automation & Scientific Computing:** Python · STAR-CCM+ Java Macros · Pandas · NumPy · Matplotlib · HDF5 · Git
+**Applied engineering ML:** Scikit-learn · Random Forest · XGBoost · SHAP · POD/PCA · Surrogate Modelling
 
-**Engineering AI:** Scikit-learn · XGBoost · SHAP · Streamlit · LangChain · RAG workflows
+**Reproducible delivery:** Git · GitHub · Kaggle · Codespaces · Streamlit
 
-## 🚀 Next Technical Frontier
+## 🛣️ What I am building toward
 
-Building deeper capability around the skills appearing in physics-based engineering-AI work:
-
-- PyTorch and deep-learning workflows
+- EV integrated thermal-management and 1D thermo-fluid system models
+- OpenModelica/Python workflows with concepts transferable to GT-SUITE, AMESim and Simulink
+- Component maps connecting 3D CFD to vehicle-level system simulation
+- Controls, calibration, uncertainty and independent validation
+- PyTorch for thermal-field and engineering deep learning
+- CNN/U-Net thermal hotspot prediction
 - Physics-informed and hybrid first-principles/ML models
-- Neural surrogates and operator learning
-- Uncertainty quantification and probabilistic ML
-- Bayesian optimization
-- Robust model validation, extrapolation checks and deployment
+- Neural operators, digital twins and uncertainty-aware surrogates
 
 ## 🤝 Say hello
 
-Always happy to exchange ideas about CFD, engine thermal management, combustion, battery thermal safety, automation or Scientific ML.
+Always happy to exchange ideas about CFD, engine CHT, combustion, battery thermal safety, system simulation, automation or Scientific ML.
 
 [LinkedIn](https://www.linkedin.com/in/srimahes) · [Engineering-AI Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
