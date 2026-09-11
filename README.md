@@ -1,63 +1,48 @@
 # Hi, I'm Maheswaran 👋
 
-### 🌡️ CFD & Thermal Simulation Specialist
+### CFD · Thermal & Multiphysics · Powertrain · Engineering AI
 
-Long before engineering existed, humans watched fire spread, water find its path, smoke rise and heat move from one object to another. Our instinctive understanding of flow and heat began with nature itself.
+I am a CFD and thermal simulation engineer with 9+ years of experience across automotive and heavy-duty engineering. My work spans thermal-fluid systems, battery/electrification, combustion and powertrain, simulation methods, automation and physics-aware AI.
 
-Today, I sit in front of a simulation and try to persuade a computer to reproduce those same behaviours. We describe heat using Fourier's 200-year-old mathematics and fluid motion using the Navier-Stokes equations—born in the nineteenth century, implemented through decades of numerical methods and executed on modern hardware.
+I use this GitHub profile as a **technical map of the areas I work in, what I understand about them, and the public projects I can share**. Detailed personal writing stays elsewhere.
 
-Now AI has joined the conversation: friend, enemy or an extremely confident assistant? Perhaps all three.
+## Engineering areas
 
-It can help us code faster and explore more possibilities, but it cannot negotiate with nature. The equations must converge, the results must agree with physics, and engineering judgment still gets the final vote.
+| Area | What I work on | Notes / projects |
+|---|---|---|
+| 🌡️ **Thermal & Multiphysics** | CHT, coolant/internal flow, electro-thermal heating, hotspot prediction, validation | [Explore →](topics/thermal-multiphysics.md) |
+| 🔋 **Battery & Electrification** | Battery thermal, thermal runaway, 1D–3D coupling, busbar/electro-thermal | [Explore →](topics/battery-electrification.md) |
+| 🔥 **Combustion & Powertrain** | SI/CI combustion, spray, charge motion, cooling, intake/EATS, alternative fuels | [Explore →](topics/combustion-powertrain.md) |
+| ⚙️ **Simulation Methods & Automation** | STAR-CCM+ Java, Python, DOE, model fidelity, KPI/post-processing workflows | [Explore →](topics/simulation-automation.md) |
+| 🤖 **Engineering AI** | Surrogates, explainable ML, POD/PCA, optimization, Scientific ML exploration | [Explore →](topics/engineering-ai.md) |
 
-## 🧭 My Current Ikigai
-
-To help transportation move **people and the things humanity depends on** more safely, efficiently and sustainably—using thermal-fluid engineering, combustion, electrification, simulation automation and physics-aware AI.
-
-## 🔧 What keeps me curious
-
-- **Battery & E-Powertrain** — thermal management, thermal runaway ,  electro-thermal hotspots and component level system simulation
-- **Combustion & Aftertreatment** — SI/CI combustion, RCCI , charge motion, spray behaviour, EATS
-- **Thermal & Flow** — coolant flow, conjugate heat transfer, temperature fields, DOE , Optimisation and test correlation
-- **Component-to-System Simulation** — connecting detailed CFD with cooling circuits, controls and vehicle-level behaviour
-- **Engineering AI** — reduced-order models, surrogates, explainability and optimization without losing the physics
-
-## 🧪 What I am building in public
+## Public project portfolio
 
 ### [AI for Thermal & Fluid Engineering →](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
-- In-cylinder PIV flow reconstruction with POD/PCA
-- Explainable combustion ML with Random Forest, XGBoost and SHAP
-- Thermal surrogate modelling, constrained optimization and an engineering dashboard
-- Vehicle-aerodynamics ML using real DrivAerNet++ design and CFD data
+Public, reproducible projects using research/open data:
 
-> **Physics first. Validation before claims. Fancy models still need to obey thermodynamics.**
+- **In-cylinder flow reconstruction** — PIV → POD/PCA → regression → reconstructed flow
+- **Spray & combustion ML** — experimental combustion data → tree models → SHAP interpretation
+- **Thermal surrogate & optimization** — thermal response modelling → hotspot prediction → bounded cooling recommendation
+- Further work is being added around aerodynamics, thermal fields and Scientific ML
 
-## ⚙️ How I currently build
+> **Physics first. Validation before claims. AI should accelerate engineering judgment, not replace it.**
 
-**Industrial simulation:** STAR-CCM+ · CONVERGE · ANSA · GT-SUITE · Ansys . Modelica
+## How I approach engineering problems
 
-**Scientific computing:** Python · Wolfram · Matlab · Openfoam
+**Question → first-principles check → model fidelity → simulation/data → verification → validation → sensitivity/DOE → engineering decision → automation/reuse**
 
-**Applied engineering ML:** Scikit-learn · Pytorch · RAG · Surrogate Modelling . PINNS
+I prefer models that are explainable enough to challenge, validate and improve. A converged result is not automatically a useful engineering result.
 
-**Reproducible delivery:** Git · GitHub · Kaggle · Codespaces · Streamlit
+## Selected tools
 
-## 🛣️ What I am building toward
+**Simulation:** STAR-CCM+ · CONVERGE · GT-SUITE · ANSA · Ansys  
+**Computation:** Python · Java · MATLAB · Modelica  
+**Engineering data/ML:** scikit-learn · surrogate modelling · explainable ML · RAG workflows
 
-- EV integrated thermal-management and 1D thermo-fluid system models
-- OpenModelica/Python workflows with concepts transferable to GT-SUITE, AMESim and Simulink
-- Component maps connecting 3D CFD to vehicle-level system simulation
-- Controls, calibration, uncertainty and independent validation
-- PyTorch for thermal-field and engineering deep learning
-- CNN/U-Net thermal hotspot prediction
-- Physics-informed and hybrid first-principles/ML models
-- Neural operators, digital twins and uncertainty-aware surrogates
+## Connect
 
-## 🤝 Say hello
+[LinkedIn](https://www.linkedin.com/in/srimahes) · [Public Engineering Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
 
-Always happy to exchange ideas about CFD, engine CHT, combustion, battery thermal safety, system simulation, automation or Scientific ML.
-
-[LinkedIn](https://www.linkedin.com/in/srimahes) · [Engineering-AI Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
-
-<sub>My curiosity is currently unlimited. My GPU budget has a much stricter boundary condition.</sub>
+<sub>No proprietary employer data is published here. Public examples use sanitized concepts or open/research datasets.</sub>
