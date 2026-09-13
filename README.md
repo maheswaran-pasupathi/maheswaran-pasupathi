@@ -1,48 +1,64 @@
-# Hi, I'm Maheswaran 👋
+# Maheswaran Pasupathi
 
-### CFD · Thermal & Multiphysics · Powertrain · Engineering AI
+### CFD & Thermal Engineering × Engineering Automation × Scientific Machine Learning
 
-I am a CFD and thermal simulation engineer with 9+ years of experience across automotive and heavy-duty engineering. My work spans thermal-fluid systems, battery/electrification, combustion and powertrain, simulation methods, automation and physics-aware AI.
+I am a CFD and thermal simulation engineer with **9+ years of experience** across automotive and heavy-duty engineering. I work on combustion, thermal management, battery systems and simulation automation, and I am extending that experience into physics-aware machine learning.
 
-I use this GitHub profile as a **technical map of the areas I work in, what I understand about them, and the public projects I can share**. Detailed personal writing stays elsewhere.
+This profile maps **the engineering questions I work on, my understanding of them, and the public examples behind that understanding**.
 
-## Engineering areas
+[Explore the portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids) · [Connect on LinkedIn](https://www.linkedin.com/in/srimahes)
 
-| Area | What I work on | Notes / projects |
+## A glimpse of the work
+
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/maheswaran-pasupathi/ai-thermal-fluids/tree/main/projects/01-enginebench-piv"><strong>In-cylinder flow reconstruction</strong></a><br>
+<img src="https://raw.githubusercontent.com/maheswaran-pasupathi/ai-thermal-fluids/main/projects/01-enginebench-piv/results/stage3_pod_reconstruction.png" width="100%" alt="EngineBench PIV flow reconstruction compared across POD mode counts"><br>
+<sub>Public experimental data: what flow structure survives compression?</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/maheswaran-pasupathi/ai-thermal-fluids/tree/main/projects/03-ecoqube-datacenter-cooling"><strong>Thermal surrogate and cooling exploration</strong></a><br>
+<img src="https://raw.githubusercontent.com/maheswaran-pasupathi/ai-thermal-fluids/main/projects/03-ecoqube-datacenter-cooling/results/stage1b_cfd_field_side.png" width="100%" alt="Temperature field rendered from the public ECO-Qube solved CFD case"><br>
+<sub>Public CFD and sensor data: where are the hotspots, and what can a surrogate tell us?</sub>
+</td>
+</tr>
+</table>
+
+## Engineering map
+
+| Area | Questions I work through |
+|---|---|
+| [Thermal & multiphysics](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/thermal-multiphysics.md) | Where does heat accumulate? How do conduction, convection and coolant flow shape temperatures? |
+| [Battery & electrification](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/battery-electrification.md) | How do heat generation, cooling and system coupling affect battery temperatures and thermal-runaway behaviour? |
+| [Combustion & powertrain](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/combustion-powertrain.md) | How do spray, charge motion and alternative fuels influence combustion and thermal loading? |
+| [Simulation & automation](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/simulation-automation.md) | What model fidelity supports the decision? Which setup, execution and post-processing steps can be automated? |
+| [Engineering AI](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/engineering-ai.md) | How should fields become ML data? When do reduced-order models and surrogates give useful predictions? |
+
+## Start with these public projects
+
+| Project | What to explore | Current scope |
 |---|---|---|
-| 🌡️ **Thermal & Multiphysics** | CHT, coolant/internal flow, electro-thermal heating, hotspot prediction, validation | [Explore →](topics/thermal-multiphysics.md) |
-| 🔋 **Battery & Electrification** | Battery thermal, thermal runaway, 1D–3D coupling, busbar/electro-thermal | [Explore →](topics/battery-electrification.md) |
-| 🔥 **Combustion & Powertrain** | SI/CI combustion, spray, charge motion, cooling, intake/EATS, alternative fuels | [Explore →](topics/combustion-powertrain.md) |
-| ⚙️ **Simulation Methods & Automation** | STAR-CCM+ Java, Python, DOE, model fidelity, KPI/post-processing workflows | [Explore →](topics/simulation-automation.md) |
-| 🤖 **Engineering AI** | Surrogates, explainable ML, POD/PCA, optimization, Scientific ML exploration | [Explore →](topics/engineering-ai.md) |
+| [EngineBench flow reconstruction](https://github.com/maheswaran-pasupathi/ai-thermal-fluids/tree/main/projects/01-enginebench-piv) | POD/PCA, crank-angle regression and reconstruction from incomplete PIV measurements | Documented case study; one operating condition and five crank angles, with substantial prediction errors reported |
+| [ECN spray & combustion ML](https://github.com/maheswaran-pasupathi/ai-thermal-fluids/tree/main/projects/02-ecn-spray-combustion) | Lift-off-length regression, SHAP and held-out nozzle-size checks | Implemented study; README claims about learning physics need refinement—feature agreement alone does not establish causality |
+| [ECO-Qube cooling surrogate](https://github.com/maheswaran-pasupathi/ai-thermal-fluids/tree/main/projects/03-ecoqube-datacenter-cooling) | CFD/experiment comparison, sensor-based regression and a Streamlit dashboard | Implemented prototype; README savings claims need refinement—the optimization uses a convenience proxy, not measured energy savings |
 
-## Public project portfolio
+These are learning and portfolio studies. The project pages contain methods, source attribution, reproduction steps and limitations; implementation status alone does not establish engineering validation.
 
-### [AI for Thermal & Fluid Engineering →](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
+## How I work
 
-Public, reproducible projects using research/open data:
+**Clarify the decision → check the physics → choose model fidelity → analyse → verify and validate → explain uncertainty → automate what is reusable.**
 
-- **In-cylinder flow reconstruction** — PIV → POD/PCA → regression → reconstructed flow
-- **Spray & combustion ML** — experimental combustion data → tree models → SHAP interpretation
-- **Thermal surrogate & optimization** — thermal response modelling → hotspot prediction → bounded cooling recommendation
-- Further work is being added around aerodynamics, thermal fields and Scientific ML
-
-> **Physics first. Validation before claims. AI should accelerate engineering judgment, not replace it.**
-
-## How I approach engineering problems
-
-**Question → first-principles check → model fidelity → simulation/data → verification → validation → sensitivity/DOE → engineering decision → automation/reuse**
-
-I prefer models that are explainable enough to challenge, validate and improve. A converged result is not automatically a useful engineering result.
-
-## Selected tools
+I start with a simple baseline and deepen the model when the engineering question requires it. My current learning includes geometry-aware ML, thermal-field prediction, digital twins and neural operators.
 
 **Simulation:** STAR-CCM+ · CONVERGE · GT-SUITE · ANSA · Ansys  
-**Computation:** Python · Java · MATLAB · Modelica  
-**Engineering data/ML:** scikit-learn · surrogate modelling · explainable ML · RAG workflows
+**Automation and data:** Python · Java · MATLAB · scikit-learn  
+**Exploration:** Modelica · explainable ML · RAG workflows
 
-## Connect
+## Technical exchange
 
-[LinkedIn](https://www.linkedin.com/in/srimahes) · [Public Engineering Portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
+I welcome conversations about CFD, thermal engineering, automation and applied ML—especially opportunities to compare methods, question assumptions or collaborate on public examples.
 
-<sub>No proprietary employer data is published here. Public examples use sanitized concepts or open/research datasets.</sub>
+[LinkedIn](https://www.linkedin.com/in/srimahes) · [Public engineering portfolio](https://github.com/maheswaran-pasupathi/ai-thermal-fluids)
+
+<sub>Public examples use open/research data or sanitized concepts. No proprietary employer data is published here.</sub>
