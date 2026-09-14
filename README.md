@@ -1,8 +1,8 @@
 # Maheswaran Pasupathi
 
-### CFD & Thermal Engineering × System Simulation × Automation & Engineering AI
+### Electro-Thermal & CFD Engineering × Battery Systems × System Simulation × Automation & Engineering AI
 
-I am a CFD and thermal simulation engineer with **9+ years of experience** across automotive and heavy-duty engineering, from combustion and engine cooling to battery thermal management and system simulation. I combine hands-on modelling and troubleshooting with technical reviews, mentoring and global delivery coordination.
+I am a CFD and thermal simulation engineer with **9+ years of experience** across automotive and heavy-duty engineering. My current primary focus is **electro-thermal simulation of busbars and high-voltage connector assemblies**, supported by battery thermal management, conjugate heat transfer, system simulation, engine thermal/combustion CFD, automation and engineering AI. I combine hands-on modelling and troubleshooting with technical reviews, mentoring and global delivery coordination.
 
 My experience spans **Renault Nissan Technology & Business Centre India** and **MAN Truck & Bus India**, including collaboration with engineering teams in Germany and Sweden.
 
@@ -11,6 +11,24 @@ My experience spans **Renault Nissan Technology & Business Centre India** and **
 ## Professional experience
 
 Expand a topic to see the projects, my contribution and the engineering questions behind the work.
+
+<details>
+<summary><strong>Busbar & high-voltage connector electro-thermal analysis</strong> — current density, Joule heating and contact optimisation</summary>
+
+### Projects and contribution
+
+- **Coupled electro-thermal modelling:** evaluated electrical heat generation together with solid conduction and surrounding-fluid heat transfer to predict busbar and connector temperature distribution.
+- **Current-density and hotspot assessment:** investigated current crowding, localized Joule heating, peak contact temperature and the thermal paths controlling heat rejection from current-carrying assemblies.
+- **Geometry optimisation:** provided design improvements for more uniform current-density distribution through corner-profile refinement and optimisation of welded and bolted contact regions.
+- **Contact-interface investigation:** assessed the influence of contact area, conductive path, material selection and interface assumptions on electrical and thermal performance.
+- **Test correlation:** compared predicted temperatures with thermocouple measurements, achieving agreement within **±5°C** for the reported application and using the correlation to support geometry and contact-interface decisions.
+- **Transferable EHV capability:** apply the same electrical–thermal–fluid reasoning to busbars, terminals and high-voltage connector applications while continuing to deepen utility-specific knowledge in electric-field control, corona/RIV behaviour, insulation coordination and applicable standards.
+
+**Engineering focus:** identifying where electrical losses become heat, how geometry and interfaces create current concentration, how that heat travels through the assembly, and which design changes reduce peak temperature without compromising the current path.
+
+**Methods and tools:** STAR-CCM+, electro-thermal coupling, Joule/Ohmic heating, conjugate heat transfer, current-density interpretation, thermocouple correlation, geometry sensitivity and engineering optimisation.
+
+</details>
 
 <details>
 <summary><strong>Battery & electrification</strong> — thermal management, thermal runaway and electro-thermal analysis</summary>
