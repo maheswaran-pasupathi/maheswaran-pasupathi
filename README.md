@@ -90,7 +90,7 @@ Small, reproducible studies with generic numbers, in the same areas as the work 
 |---|---|
 | [Battery heat and coolant sizing](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/01-battery-heat-and-coolant-sizing) | Heat per cell and pack, coolant flow, temperature rise with no cooling |
 | [Coolant flow distribution](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/02-cooling-plate-flow-distribution) | Pump operating point, U-type and Z-type headers, orifice balancing |
-| [Pack temperature and cooling strategy](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/03-pack-temperature-cooling-strategy) | Radiator against chiller over a hot-day route, and the energy cost |
+| [Pack temperature and cooling strategy](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/03-pack-temperature-cooling-strategy) | Radiator against chiller over a hot-day route, and the energy cost |\n| [Shared battery + cabin cooling](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/04-shared-battery-cabin-cooling) | Shared refrigeration capacity, COP, compressor power and condenser rejection |
 | [Air-cooled 18650 cell CHT benchmark](https://github.com/maheswaran-pasupathi/starccm-cht-benchmarks) | STAR-CCM+ conjugate heat transfer checked against published data |
 
 All of them are in the [battery-vehicle-thermal-lab](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab) repository, with more on the way.
