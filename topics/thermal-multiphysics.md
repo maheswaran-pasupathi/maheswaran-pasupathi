@@ -23,10 +23,6 @@ For coupled problems, I separate what is directly solved from what is imposed or
 - Engine/coolant thermal-fluid and CHT studies used to support design recommendations.
 - Automation of simulation execution, KPI extraction and post-processing for repeatable engineering workflows.
 
-## Public work
-
-- [AI for Thermal & Fluid Engineering](https://github.com/maheswaran-pasupathi/ai-thermal-fluids) — public projects covering thermal surrogates, cooling optimization and physics-aware ML.
-
 ## I am adding next
 
 Sanitized technical notes and small reproducible examples that explain modelling assumptions, validation logic and engineering interpretation without exposing proprietary data.

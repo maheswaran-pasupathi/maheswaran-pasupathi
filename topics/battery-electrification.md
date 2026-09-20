@@ -23,10 +23,6 @@ For safety problems such as thermal runaway, model scope and fidelity matter: so
 - Battery thermal and thermal-runaway modelling with coupled 3D–1D propagation assessment.
 - Correlation of modelled cell-skin temperatures against calorimeter/test data.
 
-## Public work
-
-- [AI for Thermal & Fluid Engineering](https://github.com/maheswaran-pasupathi/ai-thermal-fluids) — includes thermal-surrogate and cooling-optimization work using public data.
-
 ## I am adding next
 
 Public-data battery thermal examples, surrogate models and simplified system-level studies that demonstrate the workflow without using employer-confidential geometry or data.
