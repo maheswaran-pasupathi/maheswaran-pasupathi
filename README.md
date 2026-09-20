@@ -1,68 +1,105 @@
 # Maheswaran Pasupathi
 
-### Battery Cooling & Thermal Performance × Vehicle Thermal Management × 1D–3D System Simulation × Automation
+### Senior Thermal Specialist – Vehicle & Battery Thermal Management | 1D–3D Simulation
+GT-SUITE · HVAC & Battery Cooling · Test Correlation · Product Development
 
-I am a senior thermal specialist with **9 years of experience** in automotive and heavy-duty engineering. My primary focus is **battery cooling and thermal performance** and **vehicle thermal management** (cabin HVAC and heat pump, battery and e-powertrain cooling), using **GT-SUITE 1D system models coupled with STAR-CCM+ 3D conjugate heat transfer** and correlating models with test data. Around this I work on battery thermal safety, electro-thermal analysis, Python/Java automation and engineering AI. I work with test, design and quality teams and follow Agile delivery with documented, reviewable results.
+I am a senior thermal specialist with **9 years of experience** in automotive simulation, including six years on TRATON/MAN battery-electric truck and bus programmes. I build and correlate **GT-SUITE 1D vehicle thermal-management models** (cabin HVAC and heat pump, battery and e-powertrain cooling, waste-heat recovery) and couple them with **STAR-CCM+ 3D studies** for battery cooling, thermal propagation and component temperatures. I validate models against climatic wind-tunnel, bench and drive-cycle data, assess duty-cycle energy demand and thermal limits, and turn results into design suggestions. I work within pre-development and development milestones with test, design and quality teams, using Agile practice, Jira and ISO/QMS documentation.
 
-My experience spans **Renault Nissan Technology & Business Centre India** and **MAN Truck & Bus India**, including collaboration with engineering teams in Germany and Sweden.
+[Experience](#experience) · [Key projects](#key-projects) · [Technical skills](#technical-skills) · [Open-source projects](#open-source-projects) · [LinkedIn](https://www.linkedin.com/in/srimahes)
 
-[Professional experience](#professional-experience) · [Open-source projects](#open-source-projects) · [LinkedIn](https://www.linkedin.com/in/srimahes)
+## Experience
 
-## Professional experience
+| Role | Systems handled |
+|---|---|
+| **Senior Thermal Specialist**, MAN Truck & Bus India, Pune (Sep 2024 – present) | Battery-electric truck and bus thermal management: cabin HVAC and heat pump, battery and e-powertrain cooling, waste-heat circuits; 1D vehicle simulation with 1D–3D coupled studies |
+| **Assistant Manager → Deputy Manager**, MAN Truck & Bus India, Pune (Apr 2022 – Sep 2024) | 1D vehicle thermal models for electric bus and truck; climatic wind-tunnel and drive-cycle correlation; virtual validation |
+| **Senior Engineer**, umlaut, deputed at MAN Truck & Bus India (Jan 2021 – Mar 2022) | Battery cooling and thermal-runaway propagation with 1D system and 3D CHT simulation; Python and Java automation of the simulation workflow |
+| **CFD Engineer**, Renault Nissan Technology & Business Centre India, Chennai (Oct 2017 – Jan 2021) | Engine cooling circuits, intake/exhaust and after-treatment airflow, in-cylinder combustion; 3D CFD with test correlation |
 
-Expand a topic to see the projects, my contribution and the engineering questions behind the work.
+Day to day this includes validating results against test data, giving design suggestions, planning deliverables against development milestones, sprint work in Jira, quality and audit-ready documentation, and coordination with the test and design teams in India, Germany and Sweden.
+
+## Key projects
+
+Summarised at a general level. No proprietary employer data is published here.
 
 <details open>
-<summary><strong>Battery cooling & thermal performance</strong> — 1D coolant networks, 3D CHT and thermal propagation</summary>
+<summary><strong>Full-vehicle 1D thermal model</strong> — cooling, HVAC and energy</summary>
 
-### Projects and contribution
+- **Modular vehicle model:** GT-SUITE model linking drive cycle, battery (electrical and thermal), motor, cooling circuits, refrigerant/HVAC circuit and controls, with variant handling and version control so one model serves several configurations.
+- **Studies:** duty-cycle energy demand and thermal limits, battery thermal insulation and pre-conditioning energy, DOE over vehicle configurations, and cooling performance under different fan operating modes.
 
-- **Battery cooling assessment:** evaluated cooling architecture with a 1D coolant network and 3D conjugate heat transfer, covering peak temperature and temperature spread, branch-flow distribution, circuit pressure loss, pump operating point and cold-plate performance.
-- **Cooling concepts:** compared pack-level cooling with individual-cell cooling for temperature uniformity, and radiator with chiller operation for shared battery and cabin demand and auxiliary energy.
-- **Thermal-runaway and propagation:** worked on coupled 3D–1D propagation assessment, comparing cell-skin temperatures with calorimeter data and reviewing inter-cell heat paths and cooling conditions.
-- **Cold-ambient performance:** studied how heating strategy, thermal insulation and recuperation limits affect battery and vehicle performance.
-- **Test correlation:** compared predictions with thermocouple, calorimeter and coolant measurements, and used the results to support design suggestions.
-
-**Engineering focus:** temperature and uniformity matter as much as the peak. A calculated coolant flow is a first estimate; branch distribution, the pump operating point and heat rejection decide what the battery actually sees.
-
-**Methods and tools:** GT-SUITE, STAR-CCM+, conjugate heat transfer, 1D–3D coupling, sensitivity studies and test correlation.
-
-[Battery topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/battery-electrification.md)
+**Methods and tools:** GT-SUITE, MATLAB/Simulink, Python
 
 </details>
 
 <details>
-<summary><strong>Vehicle thermal management & HVAC</strong> — 1D vehicle models, heat-pump modes and test correlation</summary>
+<summary><strong>Vehicle HVAC and heat-pump modes</strong> — 1D model and test correlation</summary>
 
-### Projects and contribution
+- **Operating modes:** cabin heating and cooling modes (waste-heat recovery, electric heater, heat pump, battery-assisted cooling) with pump, valve, compressor and heater control logic, compared on energy demand and cabin and battery temperature.
+- **Correlation:** cabin, vent, refrigerant and coolant states compared with climatic wind-tunnel heating tests and drive data; gaps closed through boundary-condition and parameter review; 1D–3D cabin coupling for temperature distribution.
 
-- **Full-vehicle 1D thermal models:** worked on modular GT-SUITE vehicle models linking drive cycle, battery, motor, cooling circuits, refrigerant/HVAC circuit and controls, with variant handling and version control for repeatable studies.
-- **HVAC and heat-pump modes:** modelled heating and cooling operating modes (waste-heat recovery, electric heater, heat pump, battery-assisted cooling) with pump, valve, compressor and heater control logic, and compared energy demand per mode.
-- **Climatic wind-tunnel and drive correlation:** correlated cabin, vent, refrigerant and coolant states with test data and closed gaps through boundary-condition and parameter review.
-- **Duty-cycle energy and thermal limits:** assessed auxiliary load, heat rejection and thermal limits over drive cycles, and how they affect vehicle performance.
-- **Development process:** validated results, raised improvement suggestions and coordinated with test and design teams against development milestones.
-
-**Engineering focus:** cooling power and electrical input are not the same quantity. Energy comparisons need equal service, and a model is only trusted where it has been correlated.
-
-**Methods and tools:** GT-SUITE, MATLAB/Simulink, Python, 1D–3D coupling, energy balance and test correlation.
+**Methods and tools:** GT-SUITE, MATLAB/Simulink, Python
 
 </details>
 
 <details>
-<summary><strong>System simulation</strong> — GT-SUITE, thermal networks and 1D–3D integration</summary>
+<summary><strong>Battery performance in cold ambient</strong> — recuperation, heating strategy and insulation</summary>
 
-### Projects and contribution
+- **Constraints:** how heating capacity, coolant-circuit temperature limits, motor boundaries and battery recuperation limits restrict vehicle performance across ambient temperature.
+- **Strategies:** thermal insulation compared with electric and waste-heat heating through sensitivity studies, with assumptions, limits and open points documented.
 
-- **Model hierarchy:** local 3D CHT to component characterisation, reduced to a 1D representation, then vehicle-level transients and controls, returning limiting cases to 3D when local detail is needed.
-- **Interfaces:** defined what is exchanged between 1D and 3D models and checked energy conservation across the interface.
-- **Sensitivity and correlation:** assessed boundary conditions and parameter sensitivity, separating calibration from independent validation.
-- **Model selection:** helped decide when a system model can answer the question and when local three-dimensional detail is needed.
-
-**Methods and tools:** GT-SUITE, thermal-fluid networks, 1D–3D coupling, sensitivity studies and test correlation.
-
-**Continuing learning:** Modelica for reusable component-based system models.
+**Methods and tools:** GT-SUITE, Python
 
 </details>
+
+<details>
+<summary><strong>Battery cooling</strong> — 1D networks and 3D CHT</summary>
+
+- **Assessment:** peak temperature and spread, branch-flow distribution, circuit pressure loss, pump operating point and cold-plate performance, using a 1D coolant network with 3D conjugate heat transfer.
+- **Concepts:** individual-cell cooling compared with pack-level cooling for temperature uniformity; radiator and chiller operation for shared battery and cabin demand and auxiliary energy.
+
+**Methods and tools:** GT-SUITE, STAR-CCM+
+
+</details>
+
+<details>
+<summary><strong>Battery thermal runaway</strong> — 3D CFD and 1D propagation</summary>
+
+- **Method:** hybrid empirical and 3D CFD approach to thermal-propagation risk at cell and module level.
+- **Correlation:** coupled 3D–1D propagation simulations compared with calorimeter data, reviewing inter-cell heat paths and cooling conditions.
+
+**Methods and tools:** STAR-CCM+, GT-SUITE
+
+</details>
+
+<details>
+<summary><strong>High-current charging cable and connector</strong> — 1D thermal simulation</summary>
+
+- **Models:** GT-SUITE 1D thermal models of a DC charging cable and connector, checked against published data for temperature distribution, ampacity and energy balance.
+- **Liquid cooling:** the method extended to a liquid-cooled cable to quantify the gain in current-carrying capacity.
+
+**Methods and tools:** GT-SUITE
+
+</details>
+
+## Technical skills
+
+| Area | Tools and topics |
+|---|---|
+| Thermal systems | GT-SUITE · Simcenter AMESim · MATLAB/Simulink · Modelica |
+| CAD / CAE | STAR-CCM+ · CATIA · ENOVIA · Ansys SpaceClaim · Ansys Workbench |
+| Simulation domains | Vehicle thermal model · HVAC systems · Battery cooling · 1D–3D coupling · Battery safety simulation |
+| Test correlation | Climatic wind tunnel · Drive/duty cycle · Energy balance · Thermocouple/calorimeter data · Sensitivity analysis |
+| DOE & optimisation | Design of Experiments · Parametric studies · Reduced-order/surrogate models |
+| Automation | Python · Java macros (STAR-CCM+) · C++ · Climate and route APIs · PyBaMM |
+| AI / ML | Scikit-learn · PyTorch · Keras · LLM · RAG |
+| Process & Agile | Power BI · SQL · Power Apps · Power Automate · Jira · Agile/Sprint · ISO/QMS |
+| Product development | Pre-development · Development milestones · Design and test coordination · Document release |
+| Problem solving | TRIZ · SCAMPER · Conceptual thinking · Root-cause analysis |
+
+## Related work
+
+Earlier and adjacent work, kept for reference.
 
 <details>
 <summary><strong>Busbar & high-voltage connector electro-thermal analysis</strong> — current density, Joule heating and contact optimisation</summary>
