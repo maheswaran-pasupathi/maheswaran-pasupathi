@@ -1,8 +1,8 @@
 # Maheswaran Pasupathi
 
-### Electro-Thermal & CFD Engineering × Battery Systems × System Simulation × Automation & Engineering AI
+### Battery Cooling & Thermal Performance × Vehicle Thermal Management × 1D–3D System Simulation × Automation
 
-I am a CFD and thermal simulation engineer with **9+ years of experience** across automotive and heavy-duty engineering. My current primary focus is **electro-thermal simulation of busbars and high-voltage connector assemblies**, supported by battery thermal management, conjugate heat transfer, system simulation, engine thermal/combustion CFD, automation and engineering AI. I combine hands-on modelling and troubleshooting with technical reviews, mentoring and global delivery coordination.
+I am a senior thermal specialist with **9 years of experience** in automotive and heavy-duty engineering. My primary focus is **battery cooling and thermal performance** and **vehicle thermal management** (cabin HVAC and heat pump, battery and e-powertrain cooling), using **GT-SUITE 1D system models coupled with STAR-CCM+ 3D conjugate heat transfer** and correlating models with test data. Around this I work on battery thermal safety, electro-thermal analysis, Python/Java automation and engineering AI. I work with test, design and quality teams and follow Agile delivery with documented, reviewable results.
 
 My experience spans **Renault Nissan Technology & Business Centre India** and **MAN Truck & Bus India**, including collaboration with engineering teams in Germany and Sweden.
 
@@ -11,6 +11,58 @@ My experience spans **Renault Nissan Technology & Business Centre India** and **
 ## Professional experience
 
 Expand a topic to see the projects, my contribution and the engineering questions behind the work.
+
+<details open>
+<summary><strong>Battery cooling & thermal performance</strong> — 1D coolant networks, 3D CHT and thermal propagation</summary>
+
+### Projects and contribution
+
+- **Battery cooling assessment:** evaluated cooling architecture with a 1D coolant network and 3D conjugate heat transfer, covering peak temperature and temperature spread, branch-flow distribution, circuit pressure loss, pump operating point and cold-plate performance.
+- **Cooling concepts:** compared pack-level cooling with individual-cell cooling for temperature uniformity, and radiator with chiller operation for shared battery and cabin demand and auxiliary energy.
+- **Thermal-runaway and propagation:** worked on coupled 3D–1D propagation assessment, comparing cell-skin temperatures with calorimeter data and reviewing inter-cell heat paths and cooling conditions.
+- **Cold-ambient performance:** studied how heating strategy, thermal insulation and recuperation limits affect battery and vehicle performance.
+- **Test correlation:** compared predictions with thermocouple, calorimeter and coolant measurements, and used the results to support design suggestions.
+
+**Engineering focus:** temperature and uniformity matter as much as the peak. A calculated coolant flow is a first estimate; branch distribution, the pump operating point and heat rejection decide what the battery actually sees.
+
+**Methods and tools:** GT-SUITE, STAR-CCM+, conjugate heat transfer, 1D–3D coupling, sensitivity studies and test correlation.
+
+[Battery topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/battery-electrification.md)
+
+</details>
+
+<details>
+<summary><strong>Vehicle thermal management & HVAC</strong> — 1D vehicle models, heat-pump modes and test correlation</summary>
+
+### Projects and contribution
+
+- **Full-vehicle 1D thermal models:** worked on modular GT-SUITE vehicle models linking drive cycle, battery, motor, cooling circuits, refrigerant/HVAC circuit and controls, with variant handling and version control for repeatable studies.
+- **HVAC and heat-pump modes:** modelled heating and cooling operating modes (waste-heat recovery, electric heater, heat pump, battery-assisted cooling) with pump, valve, compressor and heater control logic, and compared energy demand per mode.
+- **Climatic wind-tunnel and drive correlation:** correlated cabin, vent, refrigerant and coolant states with test data and closed gaps through boundary-condition and parameter review.
+- **Duty-cycle energy and thermal limits:** assessed auxiliary load, heat rejection and thermal limits over drive cycles, and how they affect vehicle performance.
+- **Development process:** validated results, raised improvement suggestions and coordinated with test and design teams against development milestones.
+
+**Engineering focus:** cooling power and electrical input are not the same quantity. Energy comparisons need equal service, and a model is only trusted where it has been correlated.
+
+**Methods and tools:** GT-SUITE, MATLAB/Simulink, Python, 1D–3D coupling, energy balance and test correlation.
+
+</details>
+
+<details>
+<summary><strong>System simulation</strong> — GT-SUITE, thermal networks and 1D–3D integration</summary>
+
+### Projects and contribution
+
+- **Model hierarchy:** local 3D CHT to component characterisation, reduced to a 1D representation, then vehicle-level transients and controls, returning limiting cases to 3D when local detail is needed.
+- **Interfaces:** defined what is exchanged between 1D and 3D models and checked energy conservation across the interface.
+- **Sensitivity and correlation:** assessed boundary conditions and parameter sensitivity, separating calibration from independent validation.
+- **Model selection:** helped decide when a system model can answer the question and when local three-dimensional detail is needed.
+
+**Methods and tools:** GT-SUITE, thermal-fluid networks, 1D–3D coupling, sensitivity studies and test correlation.
+
+**Continuing learning:** Modelica for reusable component-based system models.
+
+</details>
 
 <details>
 <summary><strong>Busbar & high-voltage connector electro-thermal analysis</strong> — current density, Joule heating and contact optimisation</summary>
@@ -31,20 +83,21 @@ Expand a topic to see the projects, my contribution and the engineering question
 </details>
 
 <details>
-<summary><strong>Battery & electrification</strong> — thermal management, thermal runaway and electro-thermal analysis</summary>
+<summary><strong>Automation & simulation methods</strong> — Java, Python, CAD workflows and HPC execution</summary>
 
 ### Projects and contribution
 
-- **Battery thermal management:** worked on battery temperature prediction and cooling assessment, connecting heat generation, conduction and coolant-side heat transfer to temperature distribution and hotspots.
-- **Thermal-runaway assessment:** worked on battery thermal-runaway modelling and coupled 3D–1D propagation assessment, with calorimeter and test correlation informing the model.
-- **Busbar electro-thermal analysis:** evaluated Joule heating together with conjugate heat transfer and compared predicted temperatures with thermocouple measurements.
-- **Technical delivery:** contributed to model reviews, interpretation of test differences and coordination of battery thermal simulation work.
+- **STAR-CCM+ automation:** developed Java macros for repeatable simulation tasks, including setup, naming and post-processing workflows.
+- **Engineering data processing:** used Python to extract results, compare cases, calculate engineering indicators and prepare plots and reports.
+- **CAD and preprocessing:** worked on CATIA automation and geometry-handling workflows to reduce repetitive preparation.
+- **Simulation execution:** developed and refined SLURM multi-case launch and monitoring workflows, including progress tracking and completion notifications.
+- **Methods and infrastructure:** contributed to simulation-method harmonization and compute-environment transitions across collaborating teams.
 
-**Engineering focus:** understanding where heat is generated, how it travels through the assembly and cooling system, and which assumptions control peak temperature and propagation behaviour.
+**Engineering focus:** reducing manual repetition while making assumptions, inputs and results easier to trace. Automation should preserve the checks an engineer needs to trust a result.
 
-**Methods and tools:** STAR-CCM+, GT-SUITE, CHT, electro-thermal modelling, transient heat transfer and test correlation.
+**Methods and tools:** Java, Python, CATIA, STAR-CCM+, Bash/SLURM and Excel-based reporting.
 
-[Battery topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/battery-electrification.md)
+[Automation topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/simulation-automation.md)
 
 </details>
 
@@ -64,61 +117,6 @@ Expand a topic to see the projects, my contribution and the engineering question
 **Methods and tools:** STAR-CCM+, CONVERGE, DOE, charge-motion analysis, combustion modelling, CHT and pressure/temperature comparison.
 
 [Combustion topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/combustion-powertrain.md) · [Thermal topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/thermal-multiphysics.md)
-
-</details>
-
-<details>
-<summary><strong>System simulation</strong> — GT-SUITE, thermal networks and 1D–3D integration</summary>
-
-### Projects and contribution
-
-- **Battery cooling and thermal-runaway coupling:** worked with 1D system simulation and coupled 1D/3D approaches to connect component-level thermal behaviour with the wider system.
-- **GT-SUITE delivery scope:** coordinated and reviewed work spanning battery thermal systems, HVAC and vehicle-level simulation.
-- **Sensitivity and correlation:** supported assessment of boundary conditions, parameter sensitivity and comparison with test data.
-- **Model selection:** helped frame when a system model can answer the question and when local three-dimensional flow or temperature detail is needed.
-
-**Engineering focus:** understanding interactions between components, defining consistent model interfaces and selecting a practical level of detail for system decisions.
-
-**Methods and tools:** GT-SUITE, thermal-fluid networks, 1D–3D coupling, sensitivity studies and test correlation.
-
-**Continuing learning:** Modelica for reusable component models and system-level simulation.
-
-</details>
-
-<details>
-<summary><strong>Vehicle aerodynamics & thermal management</strong> — vehicle flow, aero-thermal work and multidisciplinary reviews</summary>
-
-### Projects and contribution
-
-- **Vehicle aerodynamics:** coordinated technical delivery and reviews within the vehicle-aerodynamics workstream.
-- **Aero-thermal and vehicle thermal work:** contributed to investigations connecting airflow with thermal-management requirements.
-- **Cross-domain interpretation:** brought experience in internal flow and heat transfer to discussions about cooling performance, pressure losses and model assumptions.
-- **Engineering reviews:** supported prioritization, result interpretation and communication of findings across simulation disciplines.
-
-**Engineering focus:** understanding how airflow affects both aerodynamic behaviour and heat removal, and identifying which local results matter to the vehicle-level question.
-
-**Methods and tools:** CFD, thermal-fluid analysis, STAR-CCM+, ANSA and engineering post-processing.
-
-This area forms part of my multidisciplinary delivery scope alongside my hands-on combustion and thermal work.
-
-</details>
-
-<details>
-<summary><strong>Automation & simulation methods</strong> — Java, Python, CAD workflows and HPC execution</summary>
-
-### Projects and contribution
-
-- **STAR-CCM+ automation:** developed Java macros for repeatable simulation tasks, including setup, naming and post-processing workflows.
-- **Engineering data processing:** used Python to extract results, compare cases, calculate engineering indicators and prepare plots and reports.
-- **CAD and preprocessing:** worked on CATIA automation and geometry-handling workflows to reduce repetitive preparation.
-- **Simulation execution:** developed and refined SLURM multi-case launch and monitoring workflows, including progress tracking and completion notifications.
-- **Methods and infrastructure:** contributed to simulation-method harmonization and compute-environment transitions across collaborating teams.
-
-**Engineering focus:** reducing manual repetition while making assumptions, inputs and results easier to trace. Automation should preserve the checks an engineer needs to trust a result.
-
-**Methods and tools:** Java, Python, CATIA, STAR-CCM+, Bash/SLURM and Excel-based reporting.
-
-[Automation topic notes](https://github.com/maheswaran-pasupathi/maheswaran-pasupathi/blob/main/topics/simulation-automation.md)
 
 </details>
 
@@ -145,7 +143,7 @@ This area forms part of my multidisciplinary delivery scope alongside my hands-o
 
 **Clarify the decision → check the physics → choose model fidelity → analyse → verify and validate → explain uncertainty → automate what is reusable.**
 
-Alongside modelling, I support technical reviews, mentoring, capacity planning and methodology alignment across India, Germany and Sweden. My aim is to make the analysis useful to the next engineering decision.
+Alongside modelling, I support technical reviews, documentation and methodology alignment across India, Germany and Sweden. My aim is to make the analysis useful to the next engineering decision.
 
 I welcome technical discussions and collaboration around thermal-fluid simulation, automation and engineering AI. [Connect on LinkedIn](https://www.linkedin.com/in/srimahes).
 
