@@ -1,11 +1,11 @@
 # Maheswaran Pasupathi
 
-### Senior Thermal Specialist – Vehicle & Battery Thermal Management | 1D–3D Simulation
-GT-SUITE · HVAC & Battery Cooling · Test Correlation · Product Development
+### Battery & Vehicle Thermal Expert | System-Level 1D–3D Simulation
+Senior Thermal Specialist · GT-SUITE · STAR-CCM+ · HVAC & Battery Cooling · Test Correlation
 
-I am a senior thermal specialist with **9 years of experience** in automotive simulation, including six years on TRATON/MAN battery-electric truck and bus programmes. I build and correlate **GT-SUITE 1D vehicle thermal-management models** (cabin HVAC and heat pump, battery and e-powertrain cooling, waste-heat recovery) and couple them with **STAR-CCM+ 3D studies** for battery cooling, thermal propagation and component temperatures. I validate models against climatic wind-tunnel, bench and drive-cycle data, assess duty-cycle energy demand and thermal limits, and turn results into design suggestions. I work within pre-development and development milestones with test, design and quality teams, using Agile practice, Jira and ISO/QMS documentation.
+I am a battery and vehicle thermal management engineer with **9 years of experience** in automotive simulation, including six years on TRATON/MAN battery-electric truck and bus programmes. I build and correlate **GT-SUITE 1D vehicle thermal-management models** (cabin HVAC and heat pump, battery and e-powertrain cooling, waste-heat recovery) and couple them with **STAR-CCM+ 3D studies** for battery cooling, thermal propagation and component temperatures. I validate models against climatic wind-tunnel, bench and drive-cycle data, assess duty-cycle energy demand and thermal limits, and turn results into design suggestions. I work within pre-development and development milestones with test, design and quality teams, using Agile practice, Jira and ISO/QMS documentation.
 
-[Experience](#experience) · [Key projects](#key-projects) · [Technical skills](#technical-skills) · [LinkedIn](https://www.linkedin.com/in/srimahes)
+[Experience](#experience) · [Key projects](#key-projects) · [Public projects](#public-projects) · [Technical skills](#technical-skills) · [LinkedIn](https://www.linkedin.com/in/srimahes)
 
 ## Experience
 
@@ -81,6 +81,19 @@ Summarised at a general level. No proprietary employer data is published here.
 **Methods and tools:** GT-SUITE
 
 </details>
+
+## Public projects
+
+Small, reproducible studies with generic numbers, in the same areas as the work above.
+
+| Project | Topic |
+|---|---|
+| [Battery heat and coolant sizing](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/01-battery-heat-and-coolant-sizing) | Heat per cell and pack, coolant flow, temperature rise with no cooling |
+| [Coolant flow distribution](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/02-cooling-plate-flow-distribution) | Pump operating point, U-type and Z-type headers, orifice balancing |
+| [Pack temperature and cooling strategy](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab/tree/master/projects/03-pack-temperature-cooling-strategy) | Radiator against chiller over a hot-day route, and the energy cost |
+| [Air-cooled 18650 cell CHT benchmark](https://github.com/maheswaran-pasupathi/starccm-cht-benchmarks) | STAR-CCM+ conjugate heat transfer checked against published data |
+
+All of them are in the [battery-vehicle-thermal-lab](https://github.com/maheswaran-pasupathi/battery-vehicle-thermal-lab) repository, with more on the way.
 
 ## Technical skills
 
