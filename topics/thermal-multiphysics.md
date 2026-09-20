@@ -7,7 +7,6 @@ This page is my compact technical map for thermal-fluid and multiphysics work. I
 - Conjugate heat transfer (CHT)
 - Coolant and internal-flow distribution
 - Temperature and hotspot prediction
-- Electro-thermal / Joule-heating workflows
 - Thermal resistance and heat-flow interpretation
 - Steady and transient thermal analysis
 - Simulation-to-test correlation
@@ -21,7 +20,6 @@ For coupled problems, I separate what is directly solved from what is imposed or
 
 ## Selected evidence
 
-- Electro-thermal busbar analysis combining Joule heating and CHT, with peak-temperature correlation against thermocouple measurements.
 - Engine/coolant thermal-fluid and CHT studies used to support design recommendations.
 - Automation of simulation execution, KPI extraction and post-processing for repeatable engineering workflows.
 

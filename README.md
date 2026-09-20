@@ -102,24 +102,6 @@ Summarised at a general level. No proprietary employer data is published here.
 Earlier and adjacent work, kept for reference.
 
 <details>
-<summary><strong>Busbar & high-voltage connector electro-thermal analysis</strong> — current density, Joule heating and contact optimisation</summary>
-
-### Projects and contribution
-
-- **Coupled electro-thermal modelling:** evaluated electrical heat generation together with solid conduction and surrounding-fluid heat transfer to predict busbar and connector temperature distribution.
-- **Current-density and hotspot assessment:** investigated current crowding, localized Joule heating, peak contact temperature and the thermal paths controlling heat rejection from current-carrying assemblies.
-- **Geometry optimisation:** provided design improvements for more uniform current-density distribution through corner-profile refinement and optimisation of welded and bolted contact regions.
-- **Contact-interface investigation:** assessed the influence of contact area, conductive path, material selection and interface assumptions on electrical and thermal performance.
-- **Test correlation:** compared predicted temperatures with thermocouple measurements, achieving agreement within **±5°C** for the reported application and using the correlation to support geometry and contact-interface decisions.
-- **Transferable EHV capability:** apply the same electrical–thermal–fluid reasoning to busbars, terminals and high-voltage connector applications while continuing to deepen utility-specific knowledge in electric-field control, corona/RIV behaviour, insulation coordination and applicable standards.
-
-**Engineering focus:** identifying where electrical losses become heat, how geometry and interfaces create current concentration, how that heat travels through the assembly, and which design changes reduce peak temperature without compromising the current path.
-
-**Methods and tools:** STAR-CCM+, electro-thermal coupling, Joule/Ohmic heating, conjugate heat transfer, current-density interpretation, thermocouple correlation, geometry sensitivity and engineering optimisation.
-
-</details>
-
-<details>
 <summary><strong>Automation & simulation methods</strong> — Java, Python, CAD workflows and HPC execution</summary>
 
 ### Projects and contribution
